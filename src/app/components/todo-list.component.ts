@@ -59,6 +59,7 @@ import {Todo} from '../models/todo.model';
             }
 
             <button (click)="deleteTodo(todo.id!)" class="delete-btn">Delete</button>
+            <button (click)="startEdit(todo)" class="edit-btn" aria-label="Edit todo">Edit</button>
           </li>
         }
       </ul>
@@ -112,6 +113,15 @@ import {Todo} from '../models/todo.model';
       border: 1px solid #4CAF50;
       border-radius: 4px;
       width: 200px;
+    }
+    .edit-btn {
+      margin-left: 8px;
+      background: #2196F3;
+      color: white;
+      border: none;
+      padding: 5px 10px;
+      border-radius: 4px;
+      cursor: pointer;
     }
     .delete-btn {
       margin-left: auto;

@@ -1,9 +1,3 @@
 {
-  "todos": [
-    {
-      "id": "f0a7",
-      "title": "create the angular application",
-      "completed": false
-    }
-  ]
+  "todos": []
 }
